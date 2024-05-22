@@ -1,0 +1,115 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./angella_white/AngellaWhite.otf);
+}
+@font-face {
+  font-family: mysecond-font;
+  src: url(./tt_chocolates/TTChocolatesTrialExtraLight.otf);
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url(./img/sfondo.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+}
+
+.center {
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: myFirstFont;
+  color: #004aad;
+  font-size: 600%;
+  align-items: center;
+  margin-top: 25%;
+}
+h3 {
+  font-family: mysecond-font;
+  color: #004aad;
+  font-size: 200%;
+  margin-top: 3%;
+}
+h5 {
+  font-family: mysecond-font;
+  color: #004aad;
+  font-size: 120%;
+  margin-top: 3%;
+}
+
+p {
+  font-family: mysecond-font;
+  color: #004aad;
+}
+.myButton {
+  background-color: transparent;
+  border: 2px solid #004aad;
+  display: inline-block;
+  cursor: pointer;
+  color: #004aad;
+  font-family: mysecond-font;
+  font-size: 15px;
+  padding: 10px 60px;
+  margin: 15px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .margin {
+    margin-top: 20%;
+  }
+  .center {
+    margin: 0 auto;
+
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 380%;
+    align-items: center;
+    margin-top: 25%;
+  }
+  h3 {
+    font-size: 150%;
+    margin-top: 3%;
+  }
+  h5 {
+    font-size: 120%;
+    margin-top: 3%;
+  }
+
+  p {
+    font-family: mysecond-font;
+    color: #004aad;
+  }
+  .myButton {
+    font-size: 15px;
+    padding: 6px 30px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .myButton:hover {
+    background-color: transparent;
+    font-weight: bold;
+  }
+}
