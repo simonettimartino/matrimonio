@@ -10,10 +10,13 @@
 <body>
 <div class="bg">
     <div class="center">
+        <div><img src="img/LC_icona_trasp.png" onclick="myFunction()" alt="gift doodle" loading="lazy" style=" width: 5%; height: auto;">
+        
+        </div>
         <div class="margin">
 
         
-            <h1> Elisa e Martino</h1>
+            <p><h1 id="tit">Elisa e Martino</h1>
             <h3 class="margin"> IL 7 SETTEMBRE CI SPOSIAMO!</h3>
             
             <hr color="#004aad" width="10%">
@@ -36,3 +39,13 @@
 </body>
 </html>
 
+<script>
+    function myFunction() {
+        var x = document.getElementById("tit");
+        if (x.innerHTML === "Elisa e Martino") {
+            x.innerHTML = "Akela e Reia";
+        } else {
+            x.innerHTML = "Elisa e Martino";
+        }
+} 
+</script>
